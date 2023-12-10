@@ -1,0 +1,13 @@
+-- These are comments.
+SELECT Customers.customer_id, Customers.first_name, Orders.item
+FROM Customers
+FULL OUTER JOIN Orders
+ON Customers.customer_id = Orders.customer_id;
+
+
+
+-- select first_name from Customers table
+SELECT first_name
+FROM Customers;
+
+-- It still not identifies the column

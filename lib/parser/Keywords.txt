@@ -1,0 +1,95 @@
+KEYWORDS //Done
+TABLES
+COLUMNS
+OPERATOR
+Punctuations
+FUNCTIONS 
+COMMENTS //Done (Comments removed)
+
+
+
+WHERE
+SELECT
+FROM 
+DISTINCT
+LIMIT
+OFFSET
+AS -> Variable
+IN
+BETWEEN
+COLUMN
+NULL
+GROUP
+ORDER
+BY
+HAVING
+ASC
+DESC
+JOIN
+LEFT 
+RIGHT
+INNER 
+OUTER 
+ON
+LIKE
+UNION
+ALL
+ANY
+SOME
+CASE 
+WHEN
+THEN
+ELSE
+END
+PRIMARY
+KEY
+EXISTS
+FULL
+AND 
+OR
+NOT
+
+
+Variables: {
+    Tables
+    Column Names:{
+        *,
+        othernames
+    }
+    DOT NOTATION
+}
+
+Operator: {
+	+
+	-
+	/
+	*
+	<
+	>
+	'
+	"
+	=
+	(
+	)
+    ;
+    || -> Pipe Operator
+}
+
+Functions:{
+    Count()	
+	CONCAT(any number of strings columns separated by comma ,)
+	MAX(vairable)
+	MIN(variable)
+	SUM(column_name)
+	AVG(column_name)
+}
+
+-- Comments
+
+Table Name -> {
+    After FORM keyword
+    After JOIN keyword
+    In Dot Notation
+}
+
+Reference: https://www.programiz.com/sql
